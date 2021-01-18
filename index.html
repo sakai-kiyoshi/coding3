@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LAMINA</title>
+    <style>
+    /*
+    html5doctor.com Reset Stylesheet
+    v1.6.1
+    Last Updated: 2010-09-17
+    Author: Richard Clark - http://richclarkdesign.com
+    Twitter: @rich_clark
+    */
+    
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+    
+    body {
+        line-height:1;
+    }
+    
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section {
+        display:block;
+    }
+    
+    nav ul {
+        list-style:none;
+    }
+    
+    blockquote, q {
+        quotes:none;
+    }
+    
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content:'';
+        content:none;
+    }
+    
+    a {
+        margin:0;
+        padding:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+    
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+    
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000;
+        font-style:italic;
+        font-weight:bold;
+    }
+    
+    del {
+        text-decoration: line-through;
+    }
+    
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+    
+    table {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+    
+    /* change border colour to suit your needs */
+    hr {
+        display:block;
+        height:1px;
+        border:0;  
+        border-top:1px solid #cccccc;
+        margin:1em 0;
+        padding:0;
+    }
+    
+    input, select {
+        vertical-align:middle;
+    }
+</style> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+</head>
+<body>
+
+    <header>
+         <h1>LAMINA</h1>
+    </header>
+
+    <nav class="nav1">
+        <ul>
+            <li><a href="#">NEW IN</a></li>
+            <li><a href="#">COLLECTION</a></li>
+            <li><a href="#">LOOKBOOK</a></li>
+        </ul>
+    </nav>
+
+    <nav class="nav2">
+        <ul>
+            <li><a href="#">OUR STORY</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">STORES</a></li>
+        </ul>
+    </nav>
+
+    <div class="slider">
+        <img src="image.png" width="500" height="300" alt="メイン画像">
+        <img src="design-fashion.jpg" width="500" height="300" alt="サブ画像">
+    </div>
+    
+    
+    <div class="box">
+        <img src="design-fashion2.jpg" alt="サブ画像" class="box1">
+        <div class="box2"></div>
+
+        <div class="box-content">
+            <dl>
+                <dt><time>2020</time> SS Collction</dt>
+                <dd>Primitive</dd>
+                <p class="ja">太古の誇りを</p>
+                <p class="eg">Discover<span class="border"></span></p>
+            </dl>
+        </div>
+    
+    </div>
+
+</body>
+</html>
